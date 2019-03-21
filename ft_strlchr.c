@@ -1,28 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_lsttoend.c                                      :+:      :+:    :+:   */
+/*   ft_strlchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: jijerde <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/12/27 23:51:04 by jijerde           #+#    #+#             */
-/*   Updated: 2018/12/28 00:28:03 by jijerde          ###   ########.fr       */
+/*   Created: 2019/02/23 06:12:20 by jijerde           #+#    #+#             */
+/*   Updated: 2019/02/23 06:21:11 by jijerde          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_lsttoend(t_list **alst, t_list *new)
+char *ft_strlchr(const char *s, int c, int i)
 {
-	t_list **alst2;
+	char *str;
+	int j;
 
-	alst2 = alst;
-	if (!alst || !new)
-		return ;
-	while ((*alst2)->next)
+	j = 0;
+	str = (char *)s;
+	while (str[j] != c && j <= i)
 	{
-		*alst2 = (*alst2)->next;
+		if (str[j] == '\0')
+			return (NULL);
+		j++;
 	}
-	(*alst2)->next = new;
-	new->next = NULL;
+	return (str + j);
 }

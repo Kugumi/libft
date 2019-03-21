@@ -18,7 +18,7 @@ ft_strmap.c ft_strmapi.c ft_strequ.c ft_strnequ.c ft_strsub.c ft_strjoin.c \
 ft_strsplit.c ft_itoa.c ft_putchar.c ft_putstr.c ft_putendl.c \
 ft_putnbr.c ft_putchar_fd.c ft_putstr_fd.c ft_putendl_fd.c ft_putnbr_fd.c \
 ft_lstnew.c ft_lstdelone.c ft_lstdel.c ft_lstadd.c ft_lstiter.c ft_lstmap.c \
-ft_putcharutf8.c ft_ffree.c ft_strrev.c ft_lstlen.c ft_swap.c ft_lsttoend.c \
+ft_ffree.c ft_strrev.c ft_lstlen.c ft_swap.c ft_strlchr.c \
 
 OBJ=$(SRC:.c=.o)
 

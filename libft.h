@@ -6,7 +6,7 @@
 /*   By: jijerde <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/12/17 21:55:53 by jijerde           #+#    #+#             */
-/*   Updated: 2018/12/28 22:15:45 by jijerde          ###   ########.fr       */
+/*   Updated: 2019/02/23 06:31:05 by jijerde          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -86,11 +86,10 @@ void				ft_lstadd(t_list **alst, t_list *new);
 void				ft_lstiter(t_list *lst, void (*f)(t_list *elem));
 t_list				*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
 
-void				ft_putcharutf8(char c);
 char				*ft_ffree(char ***s);
 char				*ft_strrev(char *str);
 int					ft_lstlen(t_list *forlen);
 void				ft_swap(char **a, char **b);
-void				ft_lsttoend(t_list **alst, t_list *new);
+char				*ft_strlchr(const char *s, int c, int i);
 
 #endif
