@@ -83,10 +83,12 @@ char			*ft_itoa(int n)
 {
 	int		razryad;
 	char	*str;
-
+    char    *fin;
 	razryad = ft_razryad(n);
 	if (!(str = (char *)malloc(sizeof(char) * (razryad + 1))))
 		return (NULL);
 	ft_str(str, n);
-	return (ft_rev(str));
+	fin = ft_rev(str);
+	free (str);
+	return (fin);
 }
