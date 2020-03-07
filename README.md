@@ -31,3 +31,4 @@ strncmp		| 	| | | | ft_putchar_fd
 | | | | | | ft_lstiter
 | | | | | | ft_lstmap
 | | | | | | ft_swap
+| | | | | | ft_strrev
