@@ -7,7 +7,7 @@ memcpy		| 		| itoa | isdigit | | ft_memdel
 memccpy		| 		| 		| isalnum | | ft_strnew
 memmove		| 		| 		| ft_isupper | | ft_strdel
 memchr		| 		| 	| isascii | | ft_strclr
-memcmp		| 	| 		| isprint | ft_striter
+memcmp		| 	| 		| isprint | | ft_striter
 strlen		| 	|				| toupper | | ft_striteri
 strdup		| 	|				| tolower | | ft_strmap
 strcpy		| 	|				| | | ft_strmapi
