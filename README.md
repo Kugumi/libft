@@ -17,7 +17,10 @@ strncat		| 	| | | | ft_strsub
 strlcat		| 	| | | | ft_strjoin
 strchr		| 	| | | | ft_strtrim
 strrchr		| 	| | | | ft_strsplit
-strstr		| 		| | | 
-strnstr		| 	| | 
-strcmp		| 		| | 
-strncmp		| 	| | 
+strstr		| 		| | | | ft_putstr
+strnstr		| 	| | | | ft_putendl
+strcmp		| 		| | | | ft_putnbr
+strncmp		| 	| | | | ft_putchar_fd
+| | | | | ft_putstr_fd
+| | | | | ft_putendl_fd
+| | | | | ft_putnbr_fd
