@@ -2,6 +2,14 @@
 
 This project is about **re-write standard libc(and some additional) functions for understand them, and learn to use them**. 
 
+Improving skills:
+
+> Imperative programming
+
+> Rigor
+
+> Algorithms & AI
+
 string.h | strings.h | stdlib.h | ctype.h | stdio.h | additional
 :----------- | :-----------: | :-----------: | -----------: | -----------: | -----------:
 memset		| bzero	| atoi		| isalpha | putchar | ft_memalloc
