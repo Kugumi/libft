@@ -3,21 +3,21 @@ This project is about **re-write standard libc(and some additional) functions fo
 string.h | strings.h | stdlib.h | ctype.h | additional
 :----------- | :-----------: | :-----------: | -----------: | -----------:
 memset		| bzero	| atoi		| isalpha | ft_memalloc
-memcpy		| 		| 	| isdigit | ft_memdel
-memccpy		| 		| 		| isalnum | 
-memmove		| 		| 		| ft_isupper |  
-memchr		| 		| 	| isascii |
-memcmp		| 	| 		| isprint |
-strlen		| 	|				| toupper |
-strdup		| 	|				| tolower |
-strcpy		| 	|				| 
-strncpy		| 		|				| 
-strcat		| 	|			| 
-strncat		| 	| | 
-strlcat		| 	| | 
-strchr		| 	| | 
-strrchr		| 	| | 
-strstr		| 		| | 
+memcpy		| 		| itoa | isdigit | ft_memdel
+memccpy		| 		| 		| isalnum | ft_strnew
+memmove		| 		| 		| ft_isupper | ft_strdel
+memchr		| 		| 	| isascii | ft_strclr
+memcmp		| 	| 		| isprint | ft_striter
+strlen		| 	|				| toupper | ft_striteri
+strdup		| 	|				| tolower | ft_strmap
+strcpy		| 	|				| | ft_strmapi
+strncpy		| 		|				| | ft_strequ
+strcat		| 	|			| | ft_strnequ
+strncat		| 	| | | ft_strsub
+strlcat		| 	| | | ft_strjoin
+strchr		| 	| | | ft_strtrim
+strrchr		| 	| | | ft_strsplit
+strstr		| 		| | | 
 strnstr		| 	| | 
 strcmp		| 		| | 
 strncmp		| 	| | 
