@@ -32,3 +32,5 @@ strncmp		| 	| | | | ft_putchar_fd
 | | | | | | ft_lstmap
 | | | | | | ft_swap
 | | | | | | ft_strrev
+| | | | | | ft_lstlen
+| | | | | | ft_ffree
